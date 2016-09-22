@@ -17,16 +17,16 @@ library(VGAM, quietly=T) # Library with posnorm functions (positiive only normal
 
 # Load R-Scripts in Different Files
 #source("Watershed_ReadData.r")
-source('~/BrambleCloudLCM1/Watershed_ReadData.R', encoding = 'UTF-8')
+source('~/brambles/BrambleCloudLCM1/Watershed_ReadData.R', encoding = 'UTF-8')
 #source("Watershed_MonteCarlo.r")
-source('~/BrambleCloudLCM1/Watershed_MonteCarlo.R', encoding = 'UTF-8')
+source('~/brambles/BrambleCloudLCM1/Watershed_MonteCarlo.R', encoding = 'UTF-8')
 #source("Watershed_BevHolt.r") # Version for other applications
 #source("Watershed_BevHolt_NFLewisMAupd.r") # Version with supplementation processing activated for NF Lewis
-source('~/BrambleCloudLCM1/Watershed_BevHolt_NFLewisMAupd.R', encoding = 'UTF-8')
+source('~/brambles/BrambleCloudLCM1/Watershed_BevHolt_NFLewisMAupd.R', encoding = 'UTF-8')
 #source("Watershed_Post_Processing.r")
-source('~/BrambleCloudLCM1/Watershed_Post_Processing.R', encoding = 'UTF-8')
+source('~/brambles/BrambleCloudLCM1/Watershed_Post_Processing.R', encoding = 'UTF-8')
 #source("Watershed_JohnDayOutputs.r") #Only use this if you're interested; it's for 1 pop and hasn't been vetted for Chinook
-source('~/BrambleCloudLCM1/Watershed_JohnDayOutputs.R', encoding = 'UTF-8')
+source('~/brambles/BrambleCloudLCM1/Watershed_JohnDayOutputs.R', encoding = 'UTF-8')
 
 # Read Header and Input Files
 print("Reading Header Files")

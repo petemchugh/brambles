@@ -8,7 +8,7 @@ Read.Header <- function(Header.File) {
   I5=10 # Number of potential pre-smolt years (Steelhead)
   
   
-  Header.File = "~/BrambleCloudLCM1/Watershed_Header_File.csv"
+  Header.File = "~/brambles/BrambleCloudLCM1/Watershed_Header_File.csv"
   
   # Read in Watershed Information Table 2.3
   
@@ -420,7 +420,7 @@ Read.Input.File <- function(header) {
       #	Site=paste("Site",k,sep="")
       Watershed.Input.File = as.character(Input.file.names[k, n.step])
       #For Bramblecloud implementation
-      Watershed.Input.File = paste("~/BrambleCloudLCM1/",Watershed.Input.File,sep="")
+      Watershed.Input.File = paste("~/brambles/BrambleCloudLCM1/",Watershed.Input.File,sep="")
       
       # Read the M's
       #T2.3 <-read.xlsx2(Watershed.Input.File, sheetName=Site,
@@ -900,7 +900,7 @@ Read.Input.File <- function(header) {
     
     # Cross Site Migration Matrix
     #Version for running in Bramblecloud
-    Cross.Site.Mig = read.csv(as.character(paste("~/BrambleCloudLCM1/",Cross.site.migration.file.names[n.step],sep="")), header=F,
+    Cross.Site.Mig = read.csv(as.character(paste("~/brambles/BrambleCloudLCM1/",Cross.site.migration.file.names[n.step],sep="")), header=F,
                               #Cross.Site.Mig = read.csv(as.character(Cross.site.migration.file.names[n.step]), header=F,
                               skip= 6, nrows=43)[, 3:27]
     Cross.Site.Mig

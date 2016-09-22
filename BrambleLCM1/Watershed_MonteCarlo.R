@@ -23,7 +23,7 @@ Initialize.Variables <- function(header.data) {
     
     #modified for bramblecloud
     #inits = read.csv(Init.file.names[k], skip=1, header=F, nrows=11)[,3:28]
-    inits = read.csv(paste("~/BrambleCloudLCM1/",Init.file.names[k],sep=""), skip=1, header=F, nrows=11)[,3:28]
+    inits = read.csv(paste("~/brambles/BrambleCloudLCM1/",Init.file.names[k],sep=""), skip=1, header=F, nrows=11)[,3:28]
     
     
     N[k,1,1,] = rep(0, G)
